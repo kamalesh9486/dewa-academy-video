@@ -1,0 +1,21 @@
+{
+  "name": "dewa-academy-video",
+  "version": "1.0.0",
+  "private": true,
+  "description": "DEWA AI Academy — Neural Mentor explainer video built with Remotion.",
+  "scripts": {
+    "start": "remotion studio",
+    "still": "remotion still DewaAcademy out/still.png --frame=0"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "remotion": "4.0.484",
+    "@remotion/cli": "4.0.484"
+  },
+  "devDependencies": {
+    "typescript": "^5.6.0",
+    "@types/react": "^18.3.1",
+    "@types/node": "^20.0.0"
+  }
+}
